@@ -19,7 +19,7 @@ pipeline {
             git(
                url: 'git@github.com:ajay1989s/petclinic.git',
                credentialsId: 'jenkins',
-               branch: 'main'
+               branch: 'master'
             )
 
             script {

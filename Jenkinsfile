@@ -23,7 +23,7 @@ pipeline {
             )
 
             script {
-               mvnHome = tool 'M3'
+               mvnHome = tool 'MVN'
             }
          }
       }

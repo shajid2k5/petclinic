@@ -12,3 +12,4 @@ pipelineJob('job-dsl-plugin') {
       lightweight()
     }
   }
+}

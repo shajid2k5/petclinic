@@ -17,13 +17,13 @@ pipeline {
          steps {
             echo 'Getting Private Repo'
             git(
-               url: 'git@github.com:ajay1989s/petclinic.git',
+               url: 'git@github.com:shajid2k5/petclinic.git',
                credentialsId: 'jenkins',
                branch: 'master'
             )
 
             script {
-               mvnHome = tool 'MVN'
+               mvnHome = tool 'mvn'
             }
          }
       }
